@@ -11,10 +11,10 @@
 # https://androidx.dev/storage/compose-compiler/repository/
 
 [versions]
-agp = "8.13.0"
+agp = "8.13.2"
 kotlin = "2.2.21"
-compose = "1.9.4"
-room = "2.8.3"
+compose = "1.10.0"
+room = "2.8.4"
 accompanist = "0.36.0"
 rikka-shizuku = "13.1.5"
 koin = "4.1.1"
@@ -27,13 +27,13 @@ compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "
 
 # KSP quickstart
 # https://kotlinlang.org/docs/ksp-quickstart.html
-ksp = { id = "com.google.devtools.ksp", version = "2.3.2" }
+ksp = { id = "com.google.devtools.ksp", version = "2.3.3" }
 
 [libraries]
 androidx-annotation = { group = "androidx.annotation", name = "annotation", version = "1.9.1" }
 androidx-core = { group = "androidx.core", name = "core-ktx", version = "1.17.0" }
-androidx-lifecycle = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version = "2.9.4" }
-androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.11.0" }
+androidx-lifecycle = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version = "2.10.0" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.12.1" }
 
 compose-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "compose" }
 compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "compose" }
@@ -71,4 +71,4 @@ rikka-shizuku-provider = { group = "dev.rikka.shizuku", name = "provider", versi
 
 # Dhizuku-API
 # https://github.com/iamr0s/Dhizuku-API
-iamr0s-dhizuku-api = { group = "io.github.iamr0s", name = "Dhizuku-SERVER_API", version = "0.0.7" }
+iamr0s-dhizuku-api = { group = "io.github.iamr0s", name = "Dhizuku-SERVER_API", version = "0.0.10" }
